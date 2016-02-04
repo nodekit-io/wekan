@@ -1,5 +1,5 @@
 {
-  "name": "Wekan",
+  "name": "Wekan for Open Source Roadmaps",
   "version": "0.10.1",
   "description": "The open-source Trello-like kanban",
   "private": true,
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wekan/wekan.git"
+    "url": "git+https://github.com/nodekit-io/wekan.git"
   },
   "license": "MIT",
   "bugs": {

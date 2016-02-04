@@ -3,7 +3,7 @@ FlowRouter.triggers.exit([({path}) => {
   previousPath = path;
 }]);
 
-FlowRouter.route('/', {
+FlowRouter.route('/boards', {
   name: 'home',
   triggersEnter: [AccountsTemplates.ensureSignedIn],
   action() {
@@ -108,7 +108,6 @@ FlowRouter.notFound = {
 // We maintain a list of redirections to ensure that we don't break old URLs
 // when we change our routing scheme.
 const redirections = {
-  '/boards': '/',
   '/boards/:id/:slug': '/b/:id/:slug',
   '/boards/:id/:slug/:cardId': '/b/:id/:slug/:cardId',
 };
